@@ -7,6 +7,7 @@ msgs          --> the start conversation list (must provide, and must be list)</
 continuue_msg --> some connect need continue push msg, this is the message (optional)</br>
 interval      --> the interval of continue message</br>
 fun           --> some messages are encrypted, this param you need provide a funtion to decrypt message</br>
+                  this function only provide one param which is the enc message
 # usage
 instantiation a class object WS</br>
 WS.run()
